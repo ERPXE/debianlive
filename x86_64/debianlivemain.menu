@@ -1,0 +1,8 @@
+LABEL DEBIANLIVE64
+MENU LABEL ^Debian Live - x64
+KERNEL er/plugins/debianlive/x86_64/linux
+INITRD er/plugins/debianlive/x86_64/initrd.img
+APPEND vga=normal boot=live live-config netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/debianlive/x86_64/ ramdisk_size=200000 nolock
+TEXT HELP
+                 Debian Live x64.
+ENDTEXT

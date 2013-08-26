@@ -1,0 +1,16 @@
+.:
+debianlive.menu
+debianlive.png
+filelist.txt
+i386
+x86_64
+
+./i386:
+debianlivemain.menu
+initrd.img
+vmlinuz
+
+./x86_64:
+debianlivemain.menu
+initrd.img
+vmlinuz
