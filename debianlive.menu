@@ -1,9 +1,6 @@
 MENU BEGIN DEBIANLIVE
+MENU TITLE Debian Live 6.0.4 (squeeze)
 MENU LABEL ^Debian Live 6.0.4 (squeeze)
-# ------====> Include Menu Settings <====------
-MENU INCLUDE er/menuinc/header.module
-
-# ------====> Set Specific Page Settings <====------
 MENU BACKGROUND er/plugins/debianlive/debianlive.png
 
 MENU INCLUDE er/plugins/debianlive/i386/debianlivemain.menu
